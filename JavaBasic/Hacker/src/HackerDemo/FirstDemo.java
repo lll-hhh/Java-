@@ -80,5 +80,23 @@ public class FirstDemo {
         //数组
         int[] ns =new int[5];
         System.out.println(ns.length);
+
+        Person person1=new Person();
+        person1.setNames(new String[] {"Xiao Ming", "Xiao Hong", "Xiao Jun"}); // 传入1个String[]
+
+
+        String s1="liuhao";
+        String s2="liuchen";
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equalsIgnoreCase(s2));
+
+        s1.startsWith("liu");
+        s1.endsWith("liu");
+        s1.lastIndexOf("c");
+
+        char[] cs ="Hello".toCharArray();
+        String sss=new String(cs);
+
     }
 }
+
