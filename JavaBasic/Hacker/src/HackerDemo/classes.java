@@ -118,6 +118,11 @@ class Outer{
     // 所以能访问Outer Class的private字段和方法。
 }
 
+class Person0 {
+    private String name;
+    private int age;
+}
+
 
 
 
